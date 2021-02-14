@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <title>Home | Dmart</title>
+    <link href="dmart.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+</head>
+
+<body>
+    <div id="root">
+        <section>
+            <div>
+                <header>
+                    <div class="navbar responsive1 responsive2">
+                        <a href="#">
+                            <img
+                                src="data:image/png;base64,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">
+                        </a>
+                        <a href="#" class="button1 button2 button3 button4 button5 button6"><span class="button">ABOUT
+                                US</span></a>
+                        <a href="#" class="button1 button2 button3 button4 button5 button6"><span
+                                class="button">CATEGORIES</span></a>
+                        <a href="#" class="button1 button2 button3 button4 button5 button6"><span class="button">SOCIAL
+                                OUT REACH</span></a>
+                        <a href="#" class="button1 button2 button3 button4 button5 button6"><span class="button">PARTNER
+                                WITH US</span></a>
+                        <a href="#" class="button1 button2 button3 button4 button5 button6"><span
+                                class="button">CAREERS</span></a>
+                        <a href="#" class="button1 button2 button3 button4 button5 button6"><span
+                                class="button">FEEDBACK</span></a>
+                        <div>
+                            <a href="#" class="hover-logo curser-pointer">
+                                <i class="fab fa-facebook-square" style="font-size: 30px;
+                            padding:3px; margin:8px;"></i></a>
+                            <a href="#" class="hover-logo curser-pointer">
+                                <i class="fab fa-linkedin-in" style="font-size: 20px;
+                            background-color: rgb(22, 22, 136);
+                            color:white;
+                            padding: 2.5px;
+                            border-radius: 4px;
+                            position: absolute;
+                            top:25px;"></i></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </section>
+        <!-- part-2 -->
+        <section>
+            <div class="part2">
+                <img src="https://www.dmartindia.com/static/media/home-banner.644eeaa9.jpg" alt="DMart" class="img1">
+            </div>
+        </section>
+        <!-- part-3 -->
+        <section class="hans3">
+            <div class="mohan">
+                <h2 class="heading1">QUICK LINKS</h2>
+            </div>
+
+            <div class="hans4">
+                <img src="img1.png" class="typ">
+                <div class="typ1">
+                    <p style="margin: 0 0 16px;"><strong>Suppliers</strong></p>
+                    <p style="margin: 0 0 16px;" class="para">Would you like to showcase your products to us?</p>
+                    <div class="btn">
+                        <button class="btn1">REGISTER AS SUPPLIER</button>
+                        <button class="btn2">BOOK AN APPOINTMENT</button>
+                    </div>
+                </div>
+            </div>
+            <hr style="color:#384552; margin-left:5%; margin-right: 5%;">
+
+            <div class="hans4 hans5">
+                <div class="typ1" style="flex-basis: 750px;">
+                    <p style="margin: 0 0 16px;"><strong>Landlords</strong></p>
+                    <p style="margin: 0 0 16px;" class="para">Do you have a property to rent / sell?</p>
+                    <div class="btn">
+                        <button class="btn3" style="width:187.27px; height:34px;">REGISTER AS LANDLORD</button>
+                    </div>
+                </div>
+                <img src="img3.png" width="424px" height="146px" class="typ">
+            </div>
+            <hr style="color:#384552; margin-left:5%; margin-right: 5%;">
+
+            <div class="hans4">
+                <img src="img2.png" width="424px" height="146px" class="typ">
+                <div class="typ1">
+                    <p style="margin: 0 0 16px;"><strong>Job Aspirant</strong></p>
+                    <p style="margin: 0 0 16px;" class="para">Interested in joining us?</p>
+                    <div class="btn">
+                        <button class="btn3" style="width:80.44px height:306px">APPLY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <hr style="color:#384552; margin-left:5%; margin-right: 5%;">
+
+            <div class="hans4 hans5">
+                <div class="typ1" style="flex-basis: 750px;">
+                    <p style="margin: 0 0 16px;"><strong>Better Schools, Brighter Futures!</strong></p>
+                    <p style="margin: 0 0 16px;" class="para">Better Schools, Brighter Future!</p>
+                    <div class="btn">
+                        <button class="btn3" style="width:100.78px; height:32px;">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img4.png" width="424px" height="146px" class="typ">
+            </div>
+
+
+
+        </section>
+        <hr style="color:#384552; margin-left:5%; margin-right: 5%;">
+
+
+
+
+        <!-- part-4 -->
+        <section>
+            <div class="raj">
+                <div class="mohan">
+                    <h2 class="heading1">NEW STORES</h2>
+                </div>
+                <div class="container">
+                    <div class="raj1">
+                        <div class="hanasraj">
+                            <h2>Attavar Road</h2>
+                            <p>Mangaluru, Karnataka</p>
+                        </div>
+                        <div class="card items13"></div>
+                    </div>
+                    <div class="card items14"></div>
+                    <div class="card items15"></div>
+                </div>
+            </div>
+        </section>
+        <!-- part-5 -->
+        <section>
+            <div>
+                <div style="margin-bottom: 20px;">
+                    <h2 class="heading1">STORE CATEGORIES</h2>
+                </div>
+                <div class="container">
+                    <div class="items items1"><span class="span1">GROCERY & STAPLES</span></div>
+                    <div class="items items2"><span class="span1">DAILY ESSENTIALS</span></div>
+                    <div class="items items3"><span class="span1">DAIRY & FROZEN</span></div>
+                    <div class="items items4"><span class="span1">CROCKERY</span></div>
+                    <div class="items items5"><span class="span1">FOOTWEAR</span></div>
+                    <div class="items items6"><span class="span1">LUGGAGE</span></div>
+                    <div class="items items7"><span class="span1">TOYS & GAMES</span></div>
+                    <div class="items items8"><span class="span1">PLASTIC CONTAINERS</span></div>
+                    <div class="items items9"><span class="span1">KID'S APPAREL</span></div>
+                    <div class="items items10"><span class="span1">WOMEN'S APPAREL</span></div>
+                    <div class="items items11"><span class="span1">MEN'S APPAREL</span></div>
+                    <div class="items items12"><span class="span1">FRUITS & VEGETABLES</span></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="shyam">
+                <div style="margin:8px 0px 16px" class=>
+                    <h2 class="heading2">CONTACT US</h2>
+                </div>
+                <div class="ram">
+                    <div>
+                        <div style="text-align: center; color:white;"><img src="homeicon.png"></div>
+                        <div>Anjaneya Cooperative Housing Society Ltd, Opposite<br> Hiranandani Foundation School,
+                            Orchard Avenue, Powai, <br>Mumbai, Maharashtra - 400076.</div>
+                    </div>
+                    <div>
+                        <div style="text-align: center;"><img src="phoneicon.png"></div>
+                        <div>+91 22 33400500</div>
+                    </div>
+                    <div>
+                        <div style="text-align: center;"><img src="messagebox.png"></div>
+                        <div>suggestion@dmartindia.com</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="footer2">
+                    <div class="footer3"><a href="#" class="footer4">Sitemap</a></div>
+                    <div class="footer3"><a href="#" class="footer4">Privacy Policy</a></div>
+                    <div class="footer3"><a href="#" class="footer4">Terms and Conditions</a></div>
+                    <div class="footer3"><a href="#" class="footer4">Disclaimer</a></div>
+                    <div class="footer3"><a href="#" class="footer4">Investor Relations</a></div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
